@@ -5,14 +5,18 @@
     box-sizing: border-box;
     font-family: Helvetica, Arial, Sans-serif;
 }
+h1,
+h2,
+h3{
+    font-size: 17px;
+}
 
 body{
     background-color: #ebe7e7;
 }
 
 main .illustrativ-banner img{
-    width: 500px;
-    height: auto;
+    width: 480px;
 }
 
 main .navbar-container{
@@ -24,18 +28,136 @@ main .navbar-container{
  main .principal-container{
     background-color: white;
     border: 1px solid gray;
-    width: 600px;
-    height: auto;
+    border-radius: 5px;
+    width: 400px;
+    height: 490px;
 
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
 }   
 
 #logo-instagram{
+    width: 250px;
+    margin:30px 0 15px 0;
+}
+
+.principal-container .logo-insta{
+    display: flex;
+    justify-content: center;
+}
+
+.principal-container .login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.principal-container .defaut-input{
     width: 300px;
-    margin: 50px 0 50px 0;
+    height: 50px;
+
+    padding: 7px;
+    margin: 5px;
+
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.principal-container .defaut-btn{
+    background-color: #77A7FF;
+    color: white;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    width: 300px;
+    height: 35px;
+    
+    border-radius: 5px;
+    border: none;
+    margin: 10px 0 20px;
+}
+
+.principal-container #other-method{
+    color: gray;
+    display: flex;
+}
+.principal-container #other-method .underline{
+    margin-top: -8px;
+    text-align: center;
 }
 
 
+.principal-container #ou{
+    margin: 0 10px 20px;
+    color: #333;
+}
 
+.principal-container a #logo-facebook{
+    width: 40px;
+    margin-bottom: -6px;
+}
+
+.principal-container #redirect-facebook{
+
+    color: #0c4bd3;
+}
+
+.principal-container .facebook-login{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+ text-decoration: none;
+}
+
+.link-es{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#esqueceu-senha{
+font-size: 13px;
+color: #444;
+}
+
+.principal-container .create-account{
+    background-color: white;
+    
+    margin-top: 30px;
+    width: 400px;
+    height: 80px;
+
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.principal-container .create-account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal-container .create-account a{
+    color: #0c4bd3;
+}
+
+.principal-container .create-account h2{
+    color: #444;
+    font-weight: 100;
+}
+
+.principal-container .store-redirect img{
+    width: 150px;
+
+}
+
+.principal-container .download-app{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.principal-container .download-app h2{
+    margin-bottom: 30px;
+}
