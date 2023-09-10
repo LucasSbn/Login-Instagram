@@ -13,6 +13,7 @@ h3{
 
 body{
     background-color: #ebe7e7;
+    margin: 0 30px;
 }
 
 main .illustrativ-banner img{
@@ -160,4 +161,27 @@ color: #444;
 
 .principal-container .download-app h2{
     margin-bottom: 30px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+    height: 250px;
+    margin: 200px 100px ;
+}
+
+footer p{
+
+    margin: 20px;
+
+    color: gray;
+    font-size: 15px;
+    text-transform: capitalize;
+    text-align: center;
+    cursor: pointer;
+
 }
