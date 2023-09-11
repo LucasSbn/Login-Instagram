@@ -12,7 +12,7 @@ h3{
 }
 
 body{
-    background-color: #ebe7e7;
+    background-color: #ffffff;
     margin: 0 30px;
 }
 
@@ -62,6 +62,8 @@ main .navbar-container{
 
     border-radius: 5px;
     border: 1px solid gray;
+
+    transition: 0.5s;
 }
 
 .principal-container .defaut-btn{
@@ -77,6 +79,8 @@ main .navbar-container{
     border-radius: 5px;
     border: none;
     margin: 10px 0 20px;
+
+    transition: 0.5s;
 }
 
 .principal-container #other-method{
@@ -183,5 +187,24 @@ footer p{
     text-transform: capitalize;
     text-align: center;
     cursor: pointer;
-
+    
+    transition: 0.5s;
 }
+
+footer p:hover{
+    color: #333;
+    font-weight: 300;
+    font-size: 17px;
+    text-shadow: 2px 3px 3px gray;
+}
+
+.principal-container .defaut-input:focus {
+    outline: none;
+    border-color: 1px solid gray;
+  }
+
+  .principal-container .defaut-btn:hover{
+    cursor: pointer;
+    background-color: rgb(21, 21, 139);
+    border-radius: 15px;
+  }
