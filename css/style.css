@@ -18,6 +18,7 @@ body{
 
 main .illustrativ-banner img{
     width: 480px;
+    margin-right: 20px;
 }
 
 main .navbar-container{
@@ -201,10 +202,33 @@ footer p:hover{
 .principal-container .defaut-input:focus {
     outline: none;
     border-color: 1px solid gray;
-  }
+}
 
-  .principal-container .defaut-btn:hover{
+.principal-container .defaut-btn:hover{
     cursor: pointer;
     background-color: rgb(21, 21, 139);
     border-radius: 15px;
-  }
+}
+
+/* desktop */
+@media  (max-width: 1100px) {
+    
+    main .navbar-container{
+        max-width: 95%;
+        max-height: auto;
+    }    
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+
+        main .navbar-container{
+            max-width: 100%;
+        }
+        .illustrativ-banner{
+            display: none;
+        }
+        footer{
+            margin-top: 450px;
+        }     
+}
