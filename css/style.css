@@ -232,3 +232,51 @@ footer p:hover{
             margin-top: 450px;
         }     
 }
+
+@media (max-width: 572px) {
+
+        html{
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .principal-container{
+            margin-left: -23px;
+        }
+
+        .logo-container #logo-instagram{
+            width: 200px;
+            height: auto;
+        }
+        
+        .logo-container{
+            width: 300px;
+        }
+
+        .logo-container .defaut-input, .logo-container .defaut-btn{
+            width: 250px;
+        }
+
+        .logo-container #other-method{
+            font-size: 13px;
+        }
+
+        .logo-container .facebook-login{
+            font-size: 15px;
+        }
+
+        .logo-container #esqueceu-senha{
+            font-size: 12px;
+        }
+
+        .logo-container .create-account{
+            margin-top: 80px;
+            width: 300px;
+        }
+
+        .create-account .store-redirect{
+            display: block;
+            width: 400px
+        }
+}
