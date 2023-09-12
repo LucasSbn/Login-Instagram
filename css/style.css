@@ -176,7 +176,7 @@ footer {
     
     
     height: 250px;
-    margin: 250px 100px ;
+    margin: 250px auto 0 ;
 }
 
 footer p{
@@ -233,7 +233,7 @@ footer p:hover{
         }     
 }
 
-@media (max-width: 572px) {
+@media (max-width: 572px) {  
 
         html{
             margin: 0;
@@ -248,6 +248,7 @@ footer p:hover{
         .logo-container #logo-instagram{
             width: 200px;
             height: auto;
+            margin: ;
         }
         
         .logo-container{
